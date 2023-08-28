@@ -8,12 +8,22 @@ body{
   background-color: #f5f5f5;
 }
 
+h1{
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  color: rgba(0,0,0,0.8)
+}
+
 .estrutura {
   padding: 40px;
-  border: 2px solid black;
+  border: 1.4px solid rgba(88, 125, 226, 0.4);
   max-width: 400px;
   margin: 30px auto;
   background-color: #ffffff;
+}
+
+form{
+  display: grid;
 }
 
 label{
@@ -26,9 +36,13 @@ input{
   font-family: 'Fira Sans', sans-serif;
 }
 
-button{
-  display: block;
+.botao{
   margin-top: 30px;
+  display: flex;
+  justify-content: end;
+}
+
+button{
   padding: 10px 30px;
   border-radius: 4px;
   background-color: rgb(88, 125, 226);
