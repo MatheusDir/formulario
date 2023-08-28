@@ -5,14 +5,15 @@ body, div, p, article, header, ul, nav, li, h1, h2, h3, h4, h5 {
 
 body{
   font-family: 'Fira Sans', sans-serif;
+  background-color: #f5f5f5;
 }
 
 .estrutura {
   padding: 40px;
   border: 2px solid black;
-  max-width: 300px;
-  margin: 0 auto;
-  
+  max-width: 400px;
+  margin: 30px auto;
+  background-color: #ffffff;
 }
 
 label{
@@ -40,4 +41,9 @@ button{
 
 button:hover{
   background-color: rgba(88, 125, 226, 0.6);
+}
+
+textarea{
+  padding: 15px 25px;
+  font-family: 'Fira Sans', sans-serif;
 }
